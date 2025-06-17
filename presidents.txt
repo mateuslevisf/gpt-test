@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "When was Joe Biden born?"
+  },
+  {
+    "role": "assistant",
+    "content": "November 20, 1942"
+  },
+  {
+    "role": "user",
+    "content": "What about Kamala Harris?"
+  },
+  {
+    "role": "assistant",
+    "content": "Kamala Harris was born on October 20, 1964."
+  },
+  {
+    "role": "user",
+    "content": "Who were the people we talked about in this chat?"
+  },
+  {
+    "role": "assistant",
+    "content": "We talked about Joe Biden, the current President of the United States, and Kamala Harris, the current Vice President of the United States."
+  }
+]
