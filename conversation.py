@@ -80,7 +80,8 @@ class ChatGPTClient:
 
     def save_conversation(self, filename):
         """Save conversation history to a JSON file"""
-        with open(filename, 'w') as f:
+        full_filename = os.path.join('chats', filename)
+        with open(full_filename, 'w') as f:
             json.dump(self.conversation_history, f, indent=2)
 
     def load_conversation(self, filename):
@@ -111,7 +112,7 @@ def main():
                 filename = user_input[5:].strip()
                 if filename:
                     client.save_conversation(filename)
-                    print(f"Conversation saved to {filename}")
+                    print(f"Conversation saved to chats/{filename}")
                 else:
                     print("Please provide a filename: save <filename>")
                 continue
