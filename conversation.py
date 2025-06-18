@@ -27,7 +27,7 @@ class ChatGPTClient:
         self.client = OpenAI(api_key=self.api_key)
         self.conversation_history = []
 
-    def chat(self, message, model="gpt-4", temperature=0.7, max_tokens=None, system_prompt=None):
+    def chat(self, message, model="gpt-4.1-mini", temperature=0.7, max_tokens=None, system_prompt=None):
         """
         Send a message to ChatGPT and get a response
 
@@ -122,7 +122,7 @@ def main():
             # Get response from ChatGPT
             response = client.chat(
                 message=user_input,
-                model="gpt-4",  # or "gpt-3.5-turbo" for faster/cheaper responses
+                model="gpt-4.1-mini",  # or "gpt-3.5-turbo" for faster/cheaper responses
                 temperature=0.7
             )
 
