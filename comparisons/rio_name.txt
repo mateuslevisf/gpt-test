@@ -1,0 +1,88 @@
+{
+  "document_stats": {
+    "char_count": 12330,
+    "word_count": 2077,
+    "estimated_tokens": 3082,
+    "fits_in_context": true,
+    "num_pages": 5,
+    "title": "Rio de Janeiro \u2013 Wikip\u00e9dia, a enciclop\u00e9dia livre"
+  },
+  "comparison_history": [
+    {
+      "question": "Was Rio de Janeiro always called that? What is the origin of that name?",
+      "timestamp": "2025-06-18T11:17:54.046419",
+      "rag_result": {
+        "answer": "The name \"Rio de Janeiro\" was chosen by the Portuguese explorers who discovered the area. The city is organized around the Bay of Guanabara, which was discovered by the Portuguese explorer Gaspar de Lemos on January 1, 1502. The Portuguese named it \"Rio de Janeiro\" because they believed it to be the mouth of a river. However, at the time, there was no distinction in nomenclature between rivers, bays, and inlets, which is why the body of water was correctly designated as a river. Therefore, the name \"Rio de Janeiro\" has been used since its discovery by the Portuguese. However, the excerpts do not provide information on whether the area had a different name before the arrival of the Portuguese.",
+        "method": "RAG",
+        "chunks_used": 5,
+        "similarity_scores": [
+          0.6257716172489655,
+          0.5753625324058855,
+          0.554720541966206,
+          0.5512683064440361,
+          0.545526157059936
+        ],
+        "context_length": 3623,
+        "retrieved_excerpts": [
+          {
+            "text": "Rio de Janeiro. A Ba\u00eda de Guanabara , \u00e0 margem da qual a cidade se organizou, foi descoberta pelo explorador portugu\u00eas Gaspar de Lemos em 1 de janeiro de 1502.[20] Embora se afirme que o nome \"Rio de Janeiro\" tenha sido escolhido em virtude de os portugueses acreditarem tratar-se a ba\u00eda da foz de um...",
+            "similarity": 0.6257716172489655,
+            "chunk_id": 4
+          },
+          {
+            "text": "Rio de Janeiro Munic\u00edpio do Brasil Cristo Redentor no Corcovado com os Morros do P\u00e3o de A\u00e7\u00facar e da Urca e a Ba\u00eda de Guanabara (ao fundo) Bondinho do P\u00e3o de A\u00e7\u00facar Theatro Municipal do Rio de Janeiro Museu do Amanh\u00e3 Est\u00e1dio do Maracan\u00e3 Barra da Tijuca Centro a partir de Santa Teresa, com a Catedral ...",
+            "similarity": 0.5753625324058855,
+            "chunk_id": 0
+          },
+          {
+            "text": "principais companhias de petr\u00f3leo e telefonia do Brasil, al\u00e9m do maior conglomerado de empresas de m\u00eddia e comunica\u00e7\u00f5es da Am\u00e9rica Latina, o Grupo Globo .[17] Contemplado por grande n\u00famero de universidades e institutos, \u00e9 o segundo maior polo de pesquisa e desenvolvimento do Brasil, respons\u00e1vel por ...",
+            "similarity": 0.554720541966206,
+            "chunk_id": 3
+          },
+          {
+            "text": "de S\u00e3o Bento, por Debret. A fam\u00edlia real portuguesa se estabeleceu no Brasil para fugir da invas\u00e3o das tropas de Napole\u00e3o. Rio de Janeiro em 1865, ent\u00e3o capital do Imp\u00e9rio do Brasil Enseada de Botafogo em 1889 Avenida Rio Branco nos anos 1910conhecido como Dia do Fico .[25] De modo a separar a prov\u00ed...",
+            "similarity": 0.5512683064440361,
+            "chunk_id": 11
+          },
+          {
+            "text": "hab./km\u00b2 Clima tropical atl\u00e2ntico (Aw) Altitude [ 5 ] 2 m Fuso hor\u00e1rio Hora de Bras\u00edlia (UTC\u22123) Indicadores IDH (PNUD/2010[ 6 ])0,799 \u2014 a l t o \u2022 Posi\u00e7\u00e3o RJ: 2\u00ba PIB (IBGE/2020[ 7 ])R$ 331 279 902,03 mil \u2022 Posi\u00e7\u00e3o BR: 2\u00ba PIB per capita (IBGE/2020[ 7 ])R$ 49 094,40 S\u00edtio www.rio.rj.gov.br (http://www....",
+            "similarity": 0.545526157059936,
+            "chunk_id": 5
+          }
+        ]
+      },
+      "full_context_result": {
+        "answer": "No, Rio de Janeiro was not always called that. The city was originally founded as \"S\u00e3o Sebasti\u00e3o do Rio de Janeiro\" on March 1, 1565. The name \"Rio de Janeiro\" was chosen because the Portuguese explorers who discovered the bay on January 1, 1502, believed it to be the mouth of a river. However, at that time, there was no distinction in nomenclature between rivers, inlets, and bays, which is why the body of water was correctly designated as a river. The term \"Rio de Janeiro\" translates to \"River of January\" in English, reflecting the month of its discovery (Page 2).",
+        "method": "Full Context",
+        "fits_in_context": true,
+        "estimated_tokens_used": 3259,
+        "document_stats": {
+          "char_count": 12375,
+          "word_count": 2087,
+          "estimated_tokens": 3093,
+          "fits_in_context": true,
+          "num_pages": 5,
+          "title": "Rio de Janeiro \u2013 Wikip\u00e9dia, a enciclop\u00e9dia livre"
+        }
+      },
+      "direct_llm_result": {
+        "answer": "No, Rio de Janeiro was not always called that. The area was originally inhabited by the Tupi, Puri, Botocudo and Maxakal\u00ed peoples. The city was founded by the Portuguese on March 1, 1565 and was named S\u00e3o Sebasti\u00e3o do Rio de Janeiro in honor of King Sebastian of Portugal.\n\nThe name \"Rio de Janeiro\" translates to \"River of January\" in English. It was so named by the Portuguese explorer Gaspar de Lemos who arrived at Guanabara Bay (where the city is located) in January 1502. He mistakenly thought the bay was the mouth of a river, hence the name.",
+        "method": "Direct LLM",
+        "uses_document": false,
+        "estimated_tokens_used": 154
+      },
+      "document_stats": {
+        "char_count": 12330,
+        "word_count": 2077,
+        "estimated_tokens": 3082,
+        "fits_in_context": true,
+        "num_pages": 5,
+        "title": "Rio de Janeiro \u2013 Wikip\u00e9dia, a enciclop\u00e9dia livre"
+      }
+    }
+  ],
+  "summary": {
+    "total_comparisons": 1,
+    "document_fits_in_context": true
+  }
+}
