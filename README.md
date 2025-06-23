@@ -2,7 +2,7 @@
 
 This repo holds files for testing the OpenAI API.
 
-Before installing the packages, it is suggested that the user creats a conda environment:
+Before installing the packages, it is suggested that the user create a conda environment (must have miniconda or Anaconda installed):
 ```
 conda create -n openai_test python=3.11
 ```
@@ -28,6 +28,8 @@ To run the RAG/Full-Context/Default LLM comparison:
 ```
 python scripts/comparison.py
 ```
+
+Note that for better use of the comparison script, it is recommended that the user loads some PDF file. The "rio_wikipedia.pdf" file can be used for that, but then it is recommended that questions center around Rio de Janeiro; to use another pdf file, just save it inside the project folder.
 
 To test GPT next-token prediction:
 ```
