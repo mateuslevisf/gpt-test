@@ -17,6 +17,8 @@ And finally:
 pip install -r requirements.txt
 ```
 
+To use scripts that call the OpenAI API (most in the ``scripts`` folder except ```pdf_processor.py``` and ```gpt.py```), you must first create a ```.env``` file in the root directory of this project and add a ```OPENAI_API_KEY=[key]``` line, where ```[key]``` is a working OpenAI key.
+
 To run the basic conversation client:
 ```
 python scripts/conversation.py
@@ -31,7 +33,7 @@ python scripts/comparison.py
 
 Note that for better use of the comparison script, it is recommended that the user loads some PDF file. The "rio_wikipedia.pdf" file can be used for that, but then it is recommended that questions center around Rio de Janeiro; to use another pdf file, just save it inside the project folder.
 
-To test GPT next-token prediction:
+To test GPT next-token prediction (uses GPT-2 in memory):
 ```
 python scripts/gpt.py
 ```
