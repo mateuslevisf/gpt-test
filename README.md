@@ -19,17 +19,17 @@ pip install -r requirements.txt
 
 To run the basic conversation client:
 ```
-python conversation.py
+python scripts/conversation.py
 ```
 
 When conversing with ChatGPT, you can write "save [filename]" to save your history or "quit" to quit conversing.
 
 To run the RAG/Full-Context/Default LLM comparison:
 ```
-python comparison.py
+python scripts/comparison.py
 ```
 
 To test GPT next-token prediction:
 ```
-python gpt.py
+python scripts/gpt.py
 ```
